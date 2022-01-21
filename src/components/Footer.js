@@ -8,15 +8,15 @@ function Footer() {
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Contact me from here!
+                    Leave me a message from here!
                 </p>
                 <p className='footer-subscription-text'>
                     I am open to...
                 </p>
                 <div className='input-areas'>
                     <form>
-                        <input className='footer-input' type='email' name='email' placeholder='your email'/>
-
+                        
+                        <textarea className='footer-input' rows='4' cols='50' placeholder='Say hi ~'></textarea>
                         <Button buttonStyle='btn--outline'>Contact Me</Button>
                     </form>
                 </div>
@@ -37,8 +37,8 @@ function Footer() {
                     <div className='social-icons'>
                         <Link 
                         className='social-icon-link facebook'
-                        to='/'
-                        target='https://www.facebook.com/ran.shang.52/'
+                        to={{pathname: 'https://www.instagram.com/keepcalm_rrrrran/'}}
+                        target='_blank'
                         aria-label='Facebook'>
                         <i className='fab fa-facebook-f' /> </Link>
 
