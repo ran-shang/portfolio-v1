@@ -1,14 +1,17 @@
 {
   "files": {
-    "main.css": "/ran-website/static/css/main.49feda7c.css",
-    "main.js": "/ran-website/static/js/main.6f5d92a1.js",
+    "main.css": "/ran-website/static/css/main.2374f405.css",
+    "main.js": "/ran-website/static/js/main.8cb6d840.js",
+    "static/media/gallery_cover_00_00.jpg": "/ran-website/static/media/gallery_cover_00_00.9291113eaf6fdc9137ea.jpg",
     "static/media/main_bg_00_00.jpg": "/ran-website/static/media/main_bg_00_00.fafd29014c0f591065db.jpg",
+    "static/media/profileImg.jpg": "/ran-website/static/media/profileImg.76893f1a74cb9950ef99.jpg",
+    "static/media/projects_cover.jpg": "/ran-website/static/media/projects_cover.68e97f9de4bf2b857eb0.jpg",
     "index.html": "/ran-website/index.html",
-    "main.49feda7c.css.map": "/ran-website/static/css/main.49feda7c.css.map",
-    "main.6f5d92a1.js.map": "/ran-website/static/js/main.6f5d92a1.js.map"
+    "main.2374f405.css.map": "/ran-website/static/css/main.2374f405.css.map",
+    "main.8cb6d840.js.map": "/ran-website/static/js/main.8cb6d840.js.map"
   },
   "entrypoints": [
-    "static/css/main.49feda7c.css",
-    "static/js/main.6f5d92a1.js"
+    "static/css/main.2374f405.css",
+    "static/js/main.8cb6d840.js"
   ]
 }
