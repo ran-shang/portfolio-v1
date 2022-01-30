@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/ran-website/static/css/main.2374f405.css",
-    "main.js": "/ran-website/static/js/main.8cb6d840.js",
+    "main.css": "/ran-website/static/css/main.0284353c.css",
+    "main.js": "/ran-website/static/js/main.1af07588.js",
     "static/media/gallery_cover_00_00.jpg": "/ran-website/static/media/gallery_cover_00_00.9291113eaf6fdc9137ea.jpg",
+    "static/media/sunflower.jpg": "/ran-website/static/media/sunflower.ad745978d5db19490fe2.jpg",
+    "static/media/theWomen.jpg": "/ran-website/static/media/theWomen.74605c96ccee79ea1ae1.jpg",
+    "static/media/people.jpg": "/ran-website/static/media/people.766298af8546a08ee898.jpg",
+    "static/media/swim.jpg": "/ran-website/static/media/swim.ebc061c7174c1d26d6e7.jpg",
+    "static/media/rose.jpg": "/ran-website/static/media/rose.c77b8a83162e7f5c582b.jpg",
+    "static/media/summer.jpg": "/ran-website/static/media/summer.40c9a7e40af9e81a3f51.jpg",
     "static/media/main_bg_00_00.jpg": "/ran-website/static/media/main_bg_00_00.fafd29014c0f591065db.jpg",
+    "static/media/bath.jpg": "/ran-website/static/media/bath.c7160383177b3ce6d484.jpg",
     "static/media/profileImg.jpg": "/ran-website/static/media/profileImg.76893f1a74cb9950ef99.jpg",
     "static/media/projects_cover.jpg": "/ran-website/static/media/projects_cover.68e97f9de4bf2b857eb0.jpg",
+    "static/media/default-skin.svg": "/ran-website/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/ran-website/index.html",
-    "main.2374f405.css.map": "/ran-website/static/css/main.2374f405.css.map",
-    "main.8cb6d840.js.map": "/ran-website/static/js/main.8cb6d840.js.map"
+    "main.0284353c.css.map": "/ran-website/static/css/main.0284353c.css.map",
+    "main.1af07588.js.map": "/ran-website/static/js/main.1af07588.js.map"
   },
   "entrypoints": [
-    "static/css/main.2374f405.css",
-    "static/js/main.8cb6d840.js"
+    "static/css/main.0284353c.css",
+    "static/js/main.1af07588.js"
   ]
 }
