@@ -5,9 +5,7 @@
   font-family: 'PT Sans', sans-serif;
 }
 
-.home,
-.gallery,
-.projects
+.home
 {
   display: flex;
   height: 90vh;
@@ -16,21 +14,17 @@
   font-size: 3rem;
 }
 
-.gallery {
-  background-image: url('/Users/ranshang/ran-website/src/images/main_bg_00_00.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+h1, h3 {
+  text-align: center;
 }
 
+.gallery {
+  background-color: blanchedalmond;
+}
+
+
 .projects {
-  background-image: url('/Users/ranshang/ran-website/src/images/projects_cover.jpg');
-  background-position: center;
-  background-size: fill;
-  background-repeat: no-repeat;
+  background-color: black;
   color: #fff;
-  font-size: 100px;
 }
 

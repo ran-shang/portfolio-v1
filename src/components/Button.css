@@ -24,6 +24,14 @@
     transition: all 0.3s ease-out;
 }
 
+.btn--contact{
+    background-color: transparent;
+    color:white;
+    padding: 8px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+}
+
 .btn--meduim{
     padding: 8px 20px;
     font-size: 20px;
@@ -34,7 +42,7 @@
     font-size: 20px;
 }
 
-.btn--meduim :hover, .btn--large:hover {
+.btn--meduim :hover, .btn--large:hover, .btn--contact:hover {
     background: white;
     color: #242424;
     transition: all 0.3s ease-out;

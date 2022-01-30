@@ -7,7 +7,7 @@ import cover2 from '../images/projects_cover.jpg'
 
 function Cards() {
     return (
-        <div className='cards'>
+        <div className='cards' id='cardSection'>
             <h1>An overview of my work:</h1>
             <div className='cards__container'>
                 <div className='cards__wrapper'>
