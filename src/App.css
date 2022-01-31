@@ -19,12 +19,76 @@ h1, h3 {
 }
 
 .gallery {
-  background-color: blanchedalmond;
+  background-color: black;
+  color: #fff;
 }
 
 
 .projects {
   background-color: black;
   color: #fff;
+}
+
+.info-container {
+  background: url('/Users/ranshang/ran-website/src/images/gallery.jpg') center center/cover no-repeat;
+  height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.project-info-container{
+  background: url('/Users/ranshang/ran-website/src/images/code.jpg') center center/cover no-repeat;
+  height: 50vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+}
+
+.gallery-container {
+  padding: 25px 25px 25px 100px;
+}
+@media screen and (max-width: 960px){
+  .info-container >h1 {
+      font-size: 25px;
+      margin-top: 4px;
+  }
+  .project-info-container >h1{
+    font-size: 25px;
+      margin-top: 4px;
+  }
+  .info-container >h3 {
+      font-size: 15px;
+      margin-top: 4px;
+  }
+  .gallery-container {
+    padding: 15px 15px 15px 50px;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .hero-container >h1 {
+      font-size: 20px;
+      margin-top: 4px;
+  }
+  .project-info-container >h1{
+    font-size: 20px;
+      margin-top: 4px;
+  }
+  .hero-container >p {
+      font-size: 20px;
+      margin-top: 8px;
+  }
+  .gallery-container {
+    padding: 15px 15px 15px 50px;
+  }
 }
 

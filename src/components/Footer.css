@@ -131,3 +131,11 @@
         flex-direction: column;
     }
 }
+
+@media screen and (max-width: 768px){
+    .social-icon-link {
+        padding: 18px 18px 18px 18px;
+        color: #fff;
+        font-size: 18px;
+    }
+}

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom';
+import {Link as LinkS} from 'react-scroll';
 import {Button} from './Button.js';
 import './Navbar.css';
 
@@ -45,9 +46,9 @@ function Navbar() {
                         </Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/projects' className='nav-links-mobile' onClick={closeMobileMenu}>
-                            Projects
-                        </Link>
+                        <LinkS to='contactSection' smooth= {true} className='nav-links-mobile' onClick={closeMobileMenu}>
+                            Contact Me
+                        </LinkS>
                     </li>
                 </ul>
                 {button && <Link to='/' className='btn-mobile'><Button buttonStyle='btn--outline'>ME</Button></Link>}

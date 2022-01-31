@@ -8,7 +8,7 @@ function HeroSection() {
     
     return (
         
-        <div class='hero-container'>
+        <div class='hero-container' id="heroSection">
             
             <h1>HI! I'M RAN!</h1>
             <p> You are welcomed to check out my work below</p>
