@@ -6,12 +6,15 @@ import theCabin from "/Users/ranshang/ran-website/src/images/gallery_cover_00_00
 import theSea from "/Users/ranshang/ran-website/src/images/theSea.jpg"
 import women from "/Users/ranshang/ran-website/src/images/theWomen.jpg"
 import rose from "/Users/ranshang/ran-website/src/images/rose.jpg"
-import sunflower from "/Users/ranshang/ran-website/src/images/sunflower.jpg"
+import temple from "/Users/ranshang/ran-website/src/images/temple.jpg"
 import people from "/Users/ranshang/ran-website/src/images/people.jpg"
 import bath from "/Users/ranshang/ran-website/src/images/bath.jpg"
 import swim from "/Users/ranshang/ran-website/src/images/swim.jpg"
 import summer from "/Users/ranshang/ran-website/src/images/summer.jpg"
 import bundle from "/Users/ranshang/ran-website/src/images/bundle.jpg"
+import bird from "/Users/ranshang/ran-website/src/images/IMG_9912.jpg"
+import peony from "/Users/ranshang/ran-website/src/images/IMG_9913.JPG"
+import loquat from "/Users/ranshang/ran-website/src/images/IMG_9914 2.jpg"
 import { Gallery, Item } from 'react-photoswipe-gallery'
 import { Footer } from "../Footer";
 
@@ -30,24 +33,24 @@ export default function MyGallery(){
         <div className="gallery-container">
             <Gallery>
             <Item
+          original={bird}
+          thumbnail={bird}
+          width="1024"
+          height="700"
+        >
+          {({ ref, open }) => (
+            <img ref={ref} onClick={open} src= {bird} width="650" height="500"/>
+          )}
+        </Item>
+        
+            <Item
             original={women}
             thumbnail={women}
-            width="1024"
+            width="815"
             height="1024"
             >
             {({ ref, open }) => (
                 <img ref={ref} onClick={open} src= {women} width="400" height="500" />
-            )}
-            </Item>
-         
-            <Item
-            original={bundle}
-            thumbnail={bundle}
-            width="1024"
-            height="1024"
-            >
-            {({ ref, open }) => (
-                <img ref={ref} onClick={open} src= {bundle} width="400" height="500" />
             )}
             </Item>
             <Item
@@ -60,10 +63,66 @@ export default function MyGallery(){
             <img ref={ref} onClick={open} src={theSea} width="400" height="500"/>
           )}
         </Item>
+        <Item
+          original={peony}
+          thumbnail={peony}
+          width="1024"
+          height="700"
+        >
+          {({ ref, open }) => (
+            <img ref={ref} onClick={open} src= {peony} width="650" height="500"/>
+          )}
+        
+        </Item>
+        <Item
+            original={loquat}
+            thumbnail={loquat}
+            width="1900"
+            height="1024"
+            >
+            {({ ref, open }) => (
+                <img ref={ref} onClick={open} src= {loquat} width="1050" height="500" />
+            )}
+            </Item>
+            
             <Item
+            original={bundle}
+            thumbnail={bundle}
+            width="815"
+            height="1024"
+            >
+            {({ ref, open }) => (
+                <img ref={ref} onClick={open} src= {bundle} width="400" height="500" />
+            )}
+            </Item>
+        <Item
+          original={rose}
+          thumbnail={rose}
+          width="1024"
+          height="820"
+        >
+          {({ ref, open }) => (
+            <img ref={ref} onClick={open} src= {rose} width="650" height="500"/>
+          )}
+        </Item>
+
+
+        <Item
+          original={temple}
+          thumbnail={temple}
+          width="1024"
+          height="810"
+        >
+          {({ ref, open }) => (
+            <img ref={ref} onClick={open} src= {temple} width="650" height="500"/>
+          )}
+        </Item>
+
+
+        <Item
           original={people}
           thumbnail={people}
-          width="1024"
+          width="815"
           height="1024"
         >
           {({ ref, open }) => (
@@ -71,18 +130,7 @@ export default function MyGallery(){
           )}
         </Item>   
 
-        
 
-        <Item
-          original={rose}
-          thumbnail={rose}
-          width="1024"
-          height="1024"
-        >
-          {({ ref, open }) => (
-            <img ref={ref} onClick={open} src= {rose} width="650" height="500"/>
-          )}
-        </Item>
         <Item
           original={theCabin}
           thumbnail={theCabin}
@@ -90,7 +138,7 @@ export default function MyGallery(){
           height="1024"
             >
           {({ ref, open }) => (
-            <img ref={ref} onClick={open} src= {theCabin} width="500" height="500" />
+            <img ref={ref} onClick={open} src= {theCabin} width="525" height="525" />
           )}
         </Item>
 
@@ -101,7 +149,7 @@ export default function MyGallery(){
           height="1024"
         >
           {({ ref, open }) => (
-            <img ref={ref} onClick={open} src= {bath} width="500" height="500"/>
+            <img ref={ref} onClick={open} src= {bath} width="525" height="525"/>
           )}
         </Item>
 
@@ -112,11 +160,10 @@ export default function MyGallery(){
           height="1024"
         >
           {({ ref, open }) => (
-            <img ref={ref} onClick={open} src= {swim} width="500" height="500"/>
+            <img ref={ref} onClick={open} src= {swim} width="525" height="525"/>
           )}
         </Item>
-
-
+ 
         <Item
           original={summer}
           thumbnail={summer}
@@ -124,10 +171,10 @@ export default function MyGallery(){
           height="1024"
         >
           {({ ref, open }) => (
-            <img ref={ref} onClick={open} src= {summer} width="500" height="500"/>
+            <img ref={ref} onClick={open} src= {summer} width="525" height="525"/>
           )}
         </Item>
-        
+
       </Gallery>
       </div>
       <Footer />
