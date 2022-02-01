@@ -6,8 +6,13 @@
 
 ## Components
 > Me
+
 This section contains the basic information about my educational background.
+
 > My Projects
+
 This section contains the projects I have created so far.
+
 > My Gallery
+
 This section is used to show the paintings I am pround of.
