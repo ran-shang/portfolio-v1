@@ -1,9 +1,11 @@
 import React from 'react'
 import CardItem from './CardItem'
+import CardItem2 from './CardItem2'
 import './Cards.css'
-import cover from '../images/profileImg.jpg'
+import cover from '/Users/ranshang/ran-website/src/images/IMG_7884.jpg'
 import cover1 from '../images/gallery_cover_00_00.jpg'
 import cover2 from '../images/projects_cover.jpg'
+
 
 function Cards() {
     return (
@@ -12,22 +14,24 @@ function Cards() {
             <div className='cards__container'>
                 <div className='cards__wrapper'>
                     <ul className='cards__items'>
-                    <CardItem 
+                    
+                        <CardItem2 
                          src={cover}
                          text='My name is Ran Shang and I came from Shanxi, China. 
-                         I am currently pursuing a Bachelor Degree in Computer Science at Concordia University, Montreal.'
+                         Click here to learn more about me.'
                          label='Me'
-                         path='/'
+                         path='meSection'
                         />
+
                         <CardItem 
                          src={cover2}
-                         text='See what academic accomplishments have I achieved so far by taking a look at my projects'
+                         text='See what academic accomplishments have I achieved so far by taking a look at my projects.'
                          label='Projects'
                          path='/projects'
                         />
                         <CardItem 
                          src={cover1}
-                         text='Explore my gallery and see where I would like to spend my spare time in'
+                         text='Explore my gallery and see where I would like to spend my spare time in.'
                          label='Gallery'
                          path='/gallery'
                         />

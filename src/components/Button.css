@@ -1,5 +1,5 @@
 :root {
-    --primary: #fff;
+    --primary: rgb(170, 97, 97);
 }
 
 .btn {
@@ -12,7 +12,7 @@
 
 .btn--primary{
     background-color: var(--primary);
-    color: #242424;
+    color: white;
     border: 1px solid var(--primary);
 }
 
@@ -20,7 +20,7 @@
     background-color: transparent;
     color:white;
     padding: 8px 20px;
-    border: 1px solid var(--primary);
+    border: 1px solid white;
     transition: all 0.3s ease-out;
 }
 
@@ -43,7 +43,7 @@
 }
 
 .btn--meduim :hover, .btn--large:hover, .btn--contact:hover {
-    background: white;
+    background: rgb(170, 97, 97);
     color: #242424;
     transition: all 0.3s ease-out;
 }
