@@ -7,7 +7,7 @@
 ## Components
 > Me
 
-This section contains the basic information about my educational background.
+This section contains the basic information about my educational background and previous working experience.
 
 > My Projects
 
