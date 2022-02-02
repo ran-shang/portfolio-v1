@@ -11,7 +11,7 @@ function HeroSection() {
         <div class='hero-container' id="heroSection">
             
             <h1>HI! I'M RAN!</h1>
-            <p> You are welcomed to check out my work below</p>
+            <p> A passionate coder & painter</p>
             <div className='hero-btns'>
             <Link to='cardSection' smooth={true} className='btn-mobile'>
                 <Button className='btns' 
