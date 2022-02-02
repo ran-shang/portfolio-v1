@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ran-website/static/css/main.ab0fe835.css",
-    "main.js": "/ran-website/static/js/main.2effbbc0.js",
+    "main.css": "/ran-website/static/css/main.c3929c63.css",
+    "main.js": "/ran-website/static/js/main.d9f28f94.js",
     "static/media/theSea.jpg": "/ran-website/static/media/theSea.cd06216583403f30a75c.jpg",
     "static/media/bundle.jpg": "/ran-website/static/media/bundle.5acde0daf32be3887643.jpg",
     "static/media/gallery_cover_00_00.jpg": "/ran-website/static/media/gallery_cover_00_00.9291113eaf6fdc9137ea.jpg",
@@ -9,9 +9,9 @@
     "static/media/people.jpg": "/ran-website/static/media/people.766298af8546a08ee898.jpg",
     "static/media/rose.jpg": "/ran-website/static/media/rose.c77b8a83162e7f5c582b.jpg",
     "static/media/summer.jpg": "/ran-website/static/media/summer.40c9a7e40af9e81a3f51.jpg",
-    "static/media/main_bg_00_00.jpg": "/ran-website/static/media/main_bg_00_00.fafd29014c0f591065db.jpg",
     "static/media/bath.jpg": "/ran-website/static/media/bath.c7160383177b3ce6d484.jpg",
     "static/media/swim.jpg": "/ran-website/static/media/swim.f6158be24ace3b5d287c.jpg",
+    "static/media/IMG_7884.jpg": "/ran-website/static/media/IMG_7884.9b33362eb4d8c7bc2ce1.jpg",
     "static/media/IMG_9913.JPG": "/ran-website/static/media/IMG_9913.edc2621316c20b064dbf.JPG",
     "static/media/IMG_9912.jpg": "/ran-website/static/media/IMG_9912.019c0108ea4bc5cd03f6.jpg",
     "static/media/IMG_9914 2.jpg": "/ran-website/static/media/IMG_9914 2.7affffdc1a77c7384d73.jpg",
@@ -22,11 +22,11 @@
     "static/media/gallery.jpg": "/ran-website/static/media/gallery.1a0eec11e70deabce4d7.jpg",
     "static/media/default-skin.svg": "/ran-website/static/media/default-skin.f64c3af3d0d25b9e4e00.svg",
     "index.html": "/ran-website/index.html",
-    "main.ab0fe835.css.map": "/ran-website/static/css/main.ab0fe835.css.map",
-    "main.2effbbc0.js.map": "/ran-website/static/js/main.2effbbc0.js.map"
+    "main.c3929c63.css.map": "/ran-website/static/css/main.c3929c63.css.map",
+    "main.d9f28f94.js.map": "/ran-website/static/js/main.d9f28f94.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab0fe835.css",
-    "static/js/main.2effbbc0.js"
+    "static/css/main.c3929c63.css",
+    "static/js/main.d9f28f94.js"
   ]
 }
