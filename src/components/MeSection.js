@@ -26,10 +26,12 @@ function MeSection(){
                     <p className="info_icon work"><i class="fa fa-briefcase"></i></p>
                     <h3>Working Experience:</h3>
                     <br/>
-                    <p className="info_word work">I am in the Co-op program and I completed 
-                        my first internship as an Integration Engineer 
-                        last summer at Ericsson, Montreal.</p>
+                    <div className="info_word work">
+                        <p>Co-op Integration Engineer at Ericsson, Montreal, 2021.</p>
                         <br/>
+                        <p>Co-op Software Dveloper at Presagis, Montreal, 2022. </p>
+                    </div>
+                    <br/>
                 </div>
             </div>
 

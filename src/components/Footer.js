@@ -10,7 +10,7 @@ export const Footer = () => {
     const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_3sak2bt', 'template_uoyx88u', form.current, 'user_6XyAds7xNRJ2QAIIcH6uG')
+        emailjs.sendForm('service_1veafj6', 'template_uoyx88u', form.current, '_Go8STb4GwJi8Ov5i')
           .then((result) => {
               console.log(result.text);
           }, (error) => {
@@ -18,6 +18,10 @@ export const Footer = () => {
           });
           form.current.reset();
       };
+
+    const showAlert = () => {
+       alert("Thanks for your email!! I will reach out to you soon.");
+    }
 
     return (
         <div className='footer-container' id='contactSection'>
@@ -40,7 +44,7 @@ export const Footer = () => {
                             <textarea className="footer-input" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
                         </div>
                         <div className="col-8 pt-3 mx-auto">
-                            <input type="submit" className="btn--contact" value="Contact Me"></input>
+                            <input onClick={showAlert} type="submit" className="btn--contact" value="Contact Me"></input>
                         </div>
                     </form>
                 </div>
