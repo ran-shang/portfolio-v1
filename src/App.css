@@ -60,8 +60,21 @@ h1, h3 {
 
 .gallery-container {
   margin: 25px 25px 25px 160px;
+  padding: 10px 20px 500px 20px;
+  width: 1250px;
+  height: 800px;
 }
-@media screen and (max-width: 960px){
+
+@media screen and (min-width: 350px){
+  .gallery-container{
+    margin: 10px 5px 10px 20px;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    height: 1550px;
+  }
+}
+
+@media screen and (max-width: 1960px){
   .info-container >h1 {
       font-size: 25px;
       margin-top: 4px;
@@ -76,6 +89,9 @@ h1, h3 {
   }
   .gallery-container{
     margin: 10px 5px 10px 35px;
+    padding: 10px 20px 500px 20px;
+    width: 1850px;
+    height: 1100px;
   }
   .gallery-container >img{
     width: 95%;
@@ -83,7 +99,74 @@ h1, h3 {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1850px){
+  .gallery-container{
+    margin: 10px 5px 10px 35px;
+    padding: 10px 20px 500px 20px;
+    width: 1650px;
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 1680px){
+  .gallery-container{
+    margin: 10px 5px 10px 55px;
+    padding: 10px 20px 500px 20px;
+    width: 1450px;
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 1430px){
+  .gallery-container{
+    margin: 10px 5px 10px 65px;
+    padding: 10px 20px 500px 20px;
+    width: 1250px;
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 1180px){
+  .gallery-container{
+    margin: 10px 5px 10px 35px;
+    padding: 10px 20px 500px 20px;
+    width: 1050px;
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+  .gallery-container{
+    margin: 10px 5px 10px 35px;
+    padding: 10px 20px 500px 20px;
+    width: 900px;
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 830px){
+  .gallery-container{
+    margin: 10px 5px 10px 35px;
+    padding: 10px 20px 500px 20px;
+    width: 700px;
+    height: 1100px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .gallery-container{
+    margin: 10px 5px 10px 40px;
+    padding: 10px 20px 500px 20px;
+    width: 550px;
+    height: 1050px;
+  }
+  .gallery-container >img{
+    width: 95%;
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 500px){
   .hero-container >h1 {
       font-size: 20px;
       margin-top: 4px;
@@ -97,10 +180,15 @@ h1, h3 {
       margin-top: 8px;
   }
   .gallery-container{
-    margin: 10px 5px 10px 25px;
+    margin: 10px 5px 10px 35px;
+    padding: 10px 20px 10px 20px;
+    width: 400px;
+    height: 450px;
   }
   .gallery-container >img{
     width: 95%;
   }
 }
+
+
 
