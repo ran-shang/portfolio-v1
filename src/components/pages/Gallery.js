@@ -125,8 +125,8 @@ export default function MyGallery(){
             thumbnailWidth="100px"
             style={{
               textAlign: "center",
-              maxWidth: "850px",
-              maxHeight: "500px",
+              minWidth: "300px",
+              
               margin: "40px auto",
             }}
           />
