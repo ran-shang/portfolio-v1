@@ -101,7 +101,8 @@ export default function MyGallery(){
         <h1>"I DREAM MY PAINTING, AND THEN I PAINT MY DREAM."</h1>
         <h3>-- VINCENT VAN GOGH</h3>
         <br /> 
-            <h3>Painting is something that I spent most of my spare time on since I was a kid.</h3>
+            <h2>Painting is something that I spent most of my spare time on since I was a kid.</h2>
+            <h2>Here are some of my recent works.</h2>
         </div>
         <div className="gallery-container">
         <Carousel
