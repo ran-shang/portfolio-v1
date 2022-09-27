@@ -13,7 +13,7 @@ function HeroSection() {
             <h1>HI! I'M RAN!</h1>
             <p> A passionate coder & painter</p>
             <div className='hero-btns'>
-            <Link to='cardSection' smooth={true} className='btn-mobile'>
+            <Link to='cardSection' smooth={true} offset={-80} className='btn-mobile'>
                 <Button className='btns' 
                     buttonStyle='btn--outline'
                     buttonSize='btn--large'

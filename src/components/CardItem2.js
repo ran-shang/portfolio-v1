@@ -5,7 +5,7 @@ function CardItem2(props) {
   return (
         <>
           <li className='cards__item'>
-              <Link to={props.path} smooth={true} className='cards__item__link'>
+              <Link to={props.path} smooth={true} offset={-80} className='cards__item__link'>
                   <figure className='cards__item__pic-wrap' data-category={props.label}>
                     <img 
                     src={props.src} 
