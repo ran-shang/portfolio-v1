@@ -2,6 +2,8 @@ import React from "react";
 import '../../App.css';
 import { Footer } from "../Footer";
 import "../Footer.css";
+//import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from 'react-bootstrap';
 
 export default function Projects(){
     return (
@@ -11,6 +13,20 @@ export default function Projects(){
         <h1 >MY PROJECTS</h1>
         </div> 
         <div className="projects_info">
+        <br />
+        <h2>2.5D Platform Game</h2>
+        <h4>Type: Academic Project</h4>
+        <ul>
+            <li><p>Designed and implemented a two-level 2.5D platform game on Unity using C#. </p></li>
+            <li><p>Enabled multi-player mode option using the Photon server. </p></li>
+            <li><p>Added a second version of the game for the player to earn bonous points. </p></li>
+        </ul>
+        <br />
+        <Container>
+        <div class="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/fmpMhviUjAc" title="2.5D Platform Game by Ran" allowfullscreen></iframe>
+        </div>
+        </Container>
         <br />
         <h2>My Portfolio Website</h2>
         <h4>Type: Personal Project</h4>
