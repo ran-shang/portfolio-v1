@@ -23,8 +23,8 @@ export default function Projects(){
         </ul>
         <br />
         <Container>
-        <div class="ratio ratio-16x9">
-        <iframe src="https://www.youtube.com/embed/fmpMhviUjAc" title="2.5D Platform Game by Ran" allowfullscreen></iframe>
+        <div className="ratio ratio-16x9">
+        <iframe src="https://www.youtube.com/embed/fmpMhviUjAc" title="2.5D Platform Game by Ran" allowFullScreen></iframe>
         </div>
         </Container>
         <br />
