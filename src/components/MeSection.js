@@ -12,13 +12,13 @@ function MeSection(){
                     <h3>Working Experience:</h3>
                     <br/>
                     <div className="info_word work">
-                        <p>Co-op Integration Engineer at Ericsson, Montreal, 2021.</p>
-                        <br/>
-                        <p>Co-op Software Developer at Presagis, Montreal, 2022. </p>
+                        <p>Full-Time Online Programmer at Ubisoft, Montreal, 2023 to current. </p>
                         <br/>
                         <p>Co-op Online Programmer at Ubisoft, Montreal, 2023. </p>
                         <br/>
-                        <p>Full-Time Online Programmer at Ubisoft, Montreal, 2023 to current. </p>
+                        <p>Co-op Software Developer at Presagis, Montreal, 2022. </p>
+                        <br/>
+                        <p>Co-op Integration Engineer at Ericsson, Montreal, 2021.</p>
                     </div>
                     <br/>
                 </div>
