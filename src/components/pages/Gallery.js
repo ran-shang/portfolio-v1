@@ -2,21 +2,21 @@ import React from "react";
 import '../../App.css';
 import 'photoswipe/dist/photoswipe.css'
 import 'photoswipe/dist/default-skin/default-skin.css'
-import theCabin from "/Users/ranshang/ran-website/src/images/gallery_cover_00_00.jpg"
-import theSea from "/Users/ranshang/ran-website/src/images/theSea.jpg"
-import women from "/Users/ranshang/ran-website/src/images/theWomen.jpg"
-import rose from "/Users/ranshang/ran-website/src/images/rose.jpg"
-import temple from "/Users/ranshang/ran-website/src/images/temple.jpg"
-import people from "/Users/ranshang/ran-website/src/images/people.jpg"
-import bath from "/Users/ranshang/ran-website/src/images/bath.jpg"
-import swim from "/Users/ranshang/ran-website/src/images/swim.jpg"
-import summer from "/Users/ranshang/ran-website/src/images/summer.jpg"
-import bundle from "/Users/ranshang/ran-website/src/images/bundle.jpg"
-import bird from "/Users/ranshang/ran-website/src/images/IMG_9912.jpg"
-import peony from "/Users/ranshang/ran-website/src/images/IMG_9913.JPG"
-import loquat from "/Users/ranshang/ran-website/src/images/IMG_9914 2.jpg"
-import vanG1 from "/Users/ranshang/ran-website/src/images/vanG1.jpg"
-import vanG2 from "/Users/ranshang/ran-website/src/images/vanG2.jpg"
+import theCabin from "../../images/gallery_cover_00_00.jpg"
+import theSea from "../../images/theSea.jpg"
+import women from "../../images/theWomen.jpg"
+import rose from "../../images/rose.jpg"
+import temple from "../../images/temple.jpg"
+import people from "../../images/people.jpg"
+import bath from "../../images/bath.jpg"
+import swim from "../../images/swim.jpg"
+import summer from "../../images/summer.jpg"
+import bundle from "../../images/bundle.jpg"
+import bird from "../../images/IMG_9912.jpg"
+import peony from "../../images/IMG_9913.JPG"
+import loquat from "../../images/IMG_9914 2.jpg"
+import vanG1 from "../../images/vanG1.jpg"
+import vanG2 from "../../images/vanG2.jpg"
 //import { Gallery, Item } from 'react-photoswipe-gallery'
 import { Carousel } from 'react-carousel-minimal';
 import { Footer } from "../Footer";
@@ -96,13 +96,6 @@ export default function MyGallery(){
   return(
         <div className="gallery" id="gallerySection">
         <div className="info-container">
-        <h1>MY GALLERY</h1>
-        <br /> 
-        <h1>"I DREAM MY PAINTING, AND THEN I PAINT MY DREAM."</h1>
-        <h3>-- VINCENT VAN GOGH</h3>
-        <br /> 
-            <h2>Painting is something that I spent most of my spare time on.</h2>
-            <h2>Here are some of my recent works.</h2>
         </div>
         <div className="gallery-container">
         <Carousel

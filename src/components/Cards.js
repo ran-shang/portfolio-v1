@@ -2,9 +2,9 @@ import React from 'react'
 import CardItem from './CardItem'
 import CardItem2 from './CardItem2'
 import './Cards.css'
-import cover from '/Users/ranshang/ran-website/src/images/IMG_7884.jpg'
-import cover1 from '../images/gallery_cover_00_00.jpg'
-import cover2 from '../images/projects_cover.jpg'
+import cover from "../images/new_avator.JPG";
+import cover1 from '../images/theSea.jpg'
+import cover2 from '../images/code.jpg'
 
 
 function Cards() {
@@ -17,7 +17,7 @@ function Cards() {
                     
                         <CardItem2 
                          src={cover}
-                         text='My name is Ran Shang and I came from Shanxi, China. 
+                         text='My name is Ran Shang. 
                          Click here to learn more about me.'
                          label='Me'
                          path='meSection'
@@ -25,13 +25,13 @@ function Cards() {
 
                         <CardItem 
                          src={cover2}
-                         text='See what academic accomplishments have I achieved so far by taking a look at my projects.'
+                         text='Click here to take a look at my projects.'
                          label='Projects'
                          path='/projects'
                         />
                         <CardItem 
                          src={cover1}
-                         text='Explore my gallery and see where I would like to spend my spare time in.'
+                         text='Click here to explore my artworks.'
                          label='Gallery'
                          path='/gallery'
                         />
