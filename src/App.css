@@ -41,19 +41,8 @@ h1, h3 {
     object-fit: contain;
 }
 
-.project-info-container{
-  /*background: url('/Users/ranshang/ran-website/src/images/code.jpg') center center/cover no-repeat;
-  height: 50vh;
-    width: 100%;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-    object-fit: contain;
-}
 .projects_info{
-  margin: 3em 5em;
+  margin: 0em 5em 3em 5em;
   padding: 25px 25px;
   background-color: rosybrown;
 }

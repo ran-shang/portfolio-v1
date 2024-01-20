@@ -8,8 +8,6 @@ import { Container } from 'react-bootstrap';
 export default function Projects(){
     return (
     <div className="projects" id="projectSection">
-        <div className="project-info-container">
-        </div> 
         <div className="projects_info">
         <h2>My Portfolio Website</h2>
         <h4>Type: Personal Project</h4>
