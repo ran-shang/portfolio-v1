@@ -2,7 +2,7 @@
 > This is my portfolio built mainly using React.js
 
 ## Link
-> Visit my website from here [MyWebsite](https://ran-shang.github.io/ran-website/).
+> This is the code for my old website, visit my new website from here [MyWebsite](https://ran-shang.github.io/ran-website/).
 
 ## Components
 > Me
